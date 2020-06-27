@@ -56,16 +56,16 @@ h1 .btn{
 h1{
     text-align: center;
     border-color: #ffffff;
-    padding-top: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%;
 }
 
 .boton_x {
    text-align: center;
-   margin-left: 50px;
-   margin-right: 50px;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 /* FIN CONTENIDO PRINCIPAL*/
 
@@ -93,9 +93,22 @@ h1{
 /*mediaquery*/
 
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
     h1 .btn{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    h1{
+       
+        padding-top: 160px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    
+    .boton_x {
+      
+       margin-left: 20px;
+       margin-right: 20px;
     }
  .logo_tipe{
      width: 30%;
@@ -114,6 +127,19 @@ h1{
     }
     .logo_tipe{
         width: 20%;
+    }
+    h1{
+       
+        padding-top: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    
+    .boton_x {
+      
+       margin-left: 50px;
+       margin-right: 50px;
     }
 }
 
