@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    width: 100%;
+    columns: #000000;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    body *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+/* INICIO NAVEGACION*/
+
+.fondo-navbar {
+    background-color:#74a2a2 !important;
+}
+
+/* FINAL NAVEGACION*/
