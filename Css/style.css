@@ -48,26 +48,73 @@ h1 .btn{
     width: auto;
     height: auto;
     font-size: 50px;
-    color: #ffffff;
+    color: #10171D;
  
 }
-h1 {
+h1{
     text-align: center;
+    border-color: #ffffff;
     padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
 }
 
+.boton_x {
+   text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+}
 /* FIN CONTENIDO PRINCIPAL*/
 
 /* INICIO MAIN*/
 
-.main-content{
+.main_content{
     color: #ffffff;
     background-color: #10171D;
     padding: 20px;
 }
 
-.main-box{
+.main_box{
     padding-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+/*mediaquery*/
+
+
+@media (min-width: 500px) {
+    h1 .btn{
+        font-size: 30px;
+    }
+ .logo_tipe{
+     width: 30%;
+ }
+}
+  
+@media (min-width: 768px) {
+    h1 .btn{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 .btn{
+        font-size: 50px;
+    }
+    .logo_tipe{
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+ 
+}
