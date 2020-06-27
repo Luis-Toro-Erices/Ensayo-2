@@ -56,3 +56,18 @@ h1 {
     padding-top: 200px;
     width: 100%;
 }
+
+/* FIN CONTENIDO PRINCIPAL*/
+
+/* INICIO MAIN*/
+
+.main-content{
+    color: #ffffff;
+    background-color: #10171D;
+    padding: 20px;
+}
+
+.main-box{
+    padding-top: 20px;
+}
+
