@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
     width: 100%;
-    columns: #000000;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
     }
     
     body *{
@@ -15,7 +18,41 @@ body {
 /* INICIO NAVEGACION*/
 
 .fondo-navbar {
-    background-color:#74a2a2 !important;
+    background-color:#10171D;
 }
 
 /* FINAL NAVEGACION*/
+
+/* INICIO CONTENIDO PRINCIPAL*/
+
+.hero__section {
+    background-image: url(../img/hero2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center;
+    height: 545px;
+    ;
+}
+
+.container__hero{
+    text-align: center;
+    width:auto;
+    height: auto;
+
+}
+
+h1 .btn{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    color: #ffffff;
+ 
+}
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    width: 100%;
+}
