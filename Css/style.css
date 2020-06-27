@@ -48,9 +48,11 @@ h1 .btn{
     width: auto;
     height: auto;
     font-size: 50px;
-    color: #10171D;
+    color: rgb(255, 255, 255);
  
 }
+
+
 h1{
     text-align: center;
     border-color: #ffffff;
@@ -93,7 +95,7 @@ h1{
 
 @media (min-width: 500px) {
     h1 .btn{
-        font-size: 30px;
+        font-size: 35px;
     }
  .logo_tipe{
      width: 30%;
